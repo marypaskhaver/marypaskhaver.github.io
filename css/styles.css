@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../css/Raleway-VariableFont_wght.ttf)
+}
+
+body {
+    padding: 0 15rem;
+
+    font-family: Raleway, sans-serif !important;
+}
+
+.name {
+    font-size: xx-large;
+    padding-top: 4rem;
+}
+
+.nav-item {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    font-size: x-large;
+}
+
+.nav-link:hover {
+    color: lightseagreen !important;
+}
+
+/* Left Side Introduction & About Me */
+
+.intro {
+    width: 50rem;
+    position: absolute;
+}
+
+.big-greeting {
+    margin-top: 5rem;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.about-me {
+    font-size: 50px;
+    color: gray;
+}
+
+/* PROFILE CARD */
+.profile-card {
+    border-radius: 6%;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: 5rem;
+    width: 20rem;
+    box-shadow: 4px 5px 8px gray;
+}
+
+.profile-img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 1rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    padding-top: 1rem;
+    font-size: x-large;
+}
+
+.img-responsive {
+    padding-top: 2rem;
+}
