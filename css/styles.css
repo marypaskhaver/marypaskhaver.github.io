@@ -4,35 +4,49 @@
 }
 
 body {
-    padding: 0 15rem;
-
     font-family: Raleway, sans-serif !important;
+}
+
+/* Keeps elements within the middle ~80% of the screen */
+.does-not-reach-screen-edge {
+    margin: 0 12%;
 }
 
 .name {
     font-size: xx-large;
-    padding-top: 4rem;
+    padding-top: 2%;
+    margin-left: 12%;
 }
 
 .nav-item {
-    padding-top: 4rem;
-    padding-left: 2rem;
+    padding-top: 2%;
+    padding-right: 8%;
     font-size: x-large;
 }
 
 .nav-link:hover {
-    color: lightseagreen !important;
+    color: #ad4316 !important;
+}
+
+.navbar {
+    white-space: nowrap; /* Keep navbar elements in 1 line */
+    background-color: #FFDDCE;
+}
+
+.close-right {
+    margin-right: 15%;
 }
 
 /* Left Side Introduction & About Me */
 
 .intro {
-    width: 50rem;
+    width: 80%;
+    margin-top: 10%;
     position: absolute;
 }
 
 .big-greeting {
-    margin-top: 5rem;
+    margin-top: 5%;
     font-size: 100px;
     font-weight: bold;
 }
@@ -45,19 +59,19 @@ body {
 /* PROFILE CARD */
 .profile-card {
     border-radius: 6%;
-    padding: 2rem;
-    margin-top: 5rem;
+    padding: 3%;
+    margin-top: 13%;
     margin-left: auto;
-    margin-right: 5rem;
-    width: 20rem;
+    width: 30%;
     box-shadow: 4px 5px 8px gray;
+    margin-right: 12%;
 }
 
 .profile-img {
     border-radius: 50%;
     max-width: 100%;
     max-height: 100%;
-    padding-top: 1rem;
+    padding-top: 3%;
 }
 
 .card-body {
@@ -65,10 +79,15 @@ body {
 }
 
 .card-title {
-    padding-top: 1rem;
+    padding-top: 6%;
     font-size: x-large;
 }
 
 .img-responsive {
-    padding-top: 2rem;
+    padding-top: 10%;
+}
+
+#projects {
+    margin-top: 8%;
+    background-color: #FFDDCE;
 }
