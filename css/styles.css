@@ -25,7 +25,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #ad4316 !important;
+    color: #39ADFA !important;
 }
 
 .navbar {
@@ -38,7 +38,6 @@ body {
 }
 
 /* Left Side Introduction & About Me */
-
 .intro {
     width: 80%;
     margin-top: 10%;
@@ -87,7 +86,57 @@ body {
     padding-top: 10%;
 }
 
+/* Projects */
+
+.big-projects-header {
+    color: #39ADFA;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+}
+
 #projects {
     margin-top: 8%;
     background-color: #FFDDCE;
+}
+
+.project-card {
+    border-radius: 6%;
+    box-shadow: 4px 5px 8px gray;
+    background-color: white;
+}
+
+.project-card-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.project-card-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-text {
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+.small-projects-footer {
+    color: #39ADFA;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+}
+
+/* Footer and Copyright Section */
+
+#footer {
+    background-color: #93d0f8;
+}
+
+.copyright {
+    padding: 2%;
+    text-align: center;
 }
