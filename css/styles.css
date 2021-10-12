@@ -122,29 +122,15 @@ body {
     border-radius: 6%;
     box-shadow: 4px 5px 8px gray;
     background-color: white;
+    position: relative;
 }
 
-.pop-out {
-    padding: 5% 0;
-    text-align: center;
-    font-size: x-large;
-    box-shadow: 4px 5px 8px gray;
-    width: 40%;
-    margin: 0 auto;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+.project-card-app:hover {
+    box-shadow: 10px 12px 14px gray;
 }
 
-.hide {
-    display: none;
-}
-
-.hide:hover {
-    display: block;
-}
-
-.project-card-app:hover + .hide {
-    display: block;    
+.hidden-link, .hidden-link:hover {
+    color: white;
 }
 
 .project-card-website {
