@@ -175,3 +175,26 @@ body {
     padding: 2%;
     text-align: center;
 }
+
+
+/* projects.html */
+
+.what-ive-made-header {
+    font-size: 50px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.projects-item {
+    padding: 5%;
+}
+
+.skill {
+    display: inline-block;
+    padding: 0.5% 1%;
+    margin-right: 0.5%;
+    font-family: Verdana, sans-serif;
+    border-radius: 10%;
+    background-color: #39ADFA;
+    color: white;
+}
