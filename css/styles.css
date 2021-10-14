@@ -45,28 +45,29 @@ body {
 /* Left Side Introduction & About Me */
 .intro {
     width: 80%;
-    margin-top: 10%;
-    position: absolute;
+    margin-top: 40%;
 }
 
 .big-greeting {
     margin-top: 5%;
     font-size: 100px;
     font-weight: bold;
+    margin-left: 15%;
 }
 
 .about-me {
     font-size: 50px;
     color: gray;
+    margin-left: 15%;
 }
 
 /* PROFILE CARD */
 .profile-card {
     border-radius: 6%;
     padding: 3%;
-    margin-top: 13%;
+    margin-top: 26%;
     margin-left: auto;
-    width: 30%;
+    width: 60%;
     box-shadow: 4px 5px 8px gray;
     margin-right: 12%;
 }
@@ -122,7 +123,7 @@ body {
     border-radius: 6%;
     box-shadow: 4px 5px 8px gray;
     background-color: white;
-    position: relative;
+    margin-bottom: 20%;
 }
 
 .project-card-app:hover {
@@ -137,8 +138,7 @@ body {
     border-radius: 2%;
     box-shadow: 4px 5px 8px gray;
     background-color: white;
-    margin-top: 30%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
 }
 
 .project-card-title {
@@ -181,7 +181,7 @@ body {
 
 .what-ive-made-header {
     font-size: 50px;
-    margin-top: 10%;
+    margin-top: 15%;
     text-align: center;
 }
 
