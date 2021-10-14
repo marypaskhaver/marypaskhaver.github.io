@@ -44,7 +44,7 @@ body {
 
 /* Left Side Introduction & About Me */
 .intro {
-    width: 80%;
+    width: 100%;
     margin-top: 40%;
 }
 
@@ -52,13 +52,11 @@ body {
     margin-top: 5%;
     font-size: 100px;
     font-weight: bold;
-    margin-left: 15%;
 }
 
 .about-me {
     font-size: 50px;
     color: gray;
-    margin-left: 15%;
 }
 
 /* PROFILE CARD */
@@ -94,7 +92,25 @@ body {
 
 /* About Me Section */
 #about {
+    margin-top: 5%;
+    /* padding: 5% 0; */
+    padding-top: 5%;
     background-color: #D6E6F2;
+}
+
+.juggling-img {
+    width: 70%;
+    border-radius: 6%;
+    box-shadow: 4px 5px 8px gray;
+}
+
+.juggling-div {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.description {
+    font-size: x-large;
 }
 
 /* Projects */
@@ -107,13 +123,6 @@ body {
     padding: 3%;
 }
 
-.description {
-    font-size: x-large;
-    text-align: right;
-    margin-top: 5%;
-    padding: 10% 9%;
-}
-
 #projects {
     margin-top: 8%;
     background-color: white;
@@ -124,6 +133,7 @@ body {
     box-shadow: 4px 5px 8px gray;
     background-color: white;
     margin-bottom: 20%;
+    position: relative;
 }
 
 .project-card-app:hover {
