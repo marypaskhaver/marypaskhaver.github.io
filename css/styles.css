@@ -28,9 +28,9 @@ body {
     color: #F7FBFC !important;
 }
 
-.nav-link:focus {
+.active-nav-link {
     color: #F7FBFC !important;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .navbar {
