@@ -11,5 +11,7 @@ $(function () {
         if (index == words.length) {
             index = 0;
         }
+
+        console.log(index);
     }, 2000);
 });
