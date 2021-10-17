@@ -8,7 +8,9 @@ $(function () {
             index += 1;
         });
 
-        if (index == words.length) {
+        // The index goes out of bounds only when on GH Pages...?
+        // Attempt to fix by checking when index >= words.length.
+        if (index >= words.length) {
             index = 0;
         }
 
