@@ -1,5 +1,5 @@
 $(function () {
-    const words = ["programmer", "writer", "go-getter", "teacher"];
+    const words = ["a programmer", "a writer", "a go-getter", "a teacher"];
     var index = 0;
 
     setInterval(function() {
