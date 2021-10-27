@@ -1,5 +1,6 @@
 $(function () {
     const words = ["a programmer", "a writer", "a go-getter", "a teacher"];
+    
     var index = 0;
 
     setInterval(function() {
@@ -13,7 +14,5 @@ $(function () {
         if (index >= words.length) {
             index = 0;
         }
-
-        console.log(index);
     }, 2000);
 });
