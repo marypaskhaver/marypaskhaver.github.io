@@ -14,9 +14,10 @@
   </head>
   <body>
     <nav
-      class="flex w-full justify-end fixed bg-slate-50 h-20 shadow-lg px-16 py-8 items-center font-medium text-2xl gap-16"
+      class="flex w-full justify-end fixed bg-slate-50 h-20 shadow-lg px-16 py-8 items-center font-medium text-2xl gap-16 z-50"
     >
       <a href="#projects" class="hover:text-sky-500">Projects</a>
+      <a href="#writing" class="hover:text-sky-500">Writing</a>
       <a href="mailto:mary.paskhaver@gmail.com" class="hover:text-sky-500">
         Contact Me
       </a>
@@ -51,7 +52,7 @@
     </div>
     <div class="flex bg-white pt-8 pb-16 justify-center" id="projects">
       <div class="mx-20">
-        <p class="text-6xl font-bold mt-8 mb-6 text-center">My Projects</p>
+        <p class="text-6xl font-bold mt-8 mb-12 text-center">My Projects</p>
         <div>
           <div class="flex justify-between mb-8">
             <div>
@@ -65,23 +66,38 @@
               <p class="block md:hidden text-2xl text-slate-400 font-light">
                 React Native, Redux
               </p>
-              <p class="text-2xl text-slate-500 font-light mt-1">
+              <p class="text-2xl text-black font-light mt-1">
                 Collaborated with alumni to rebuild and expand an app that helps
                 <span class="text-sky-500">3,000+</span> Rutgers University
                 students
               </p>
+              <ul class="pl-5 text-xl text-slate-500 font-light list-disc mt-1">
+                <li>
+                  Rebuilt app with React Navigation library, enabling custom
+                  Dark Mode and Android compatibility
+                </li>
+                <li>
+                  Wrote unit tests for Redux reducers, components, and
+                  formatting functions, boosting known frontend code coverage to
+                  85%+
+                </li>
+                <li>
+                  Reviewed fellow developer's code and collaborated with UI
+                  designer to improve product quality
+                </li>
+              </ul>
             </div>
 
             <div class="flex-row md:inline-flex gap-10 hidden">
               <a
                 href="https://apps.apple.com/us/app/rutgers-rumobile/id1036544263"
-                class="text-sky-500 hover:text-sky-600"
+                class="text-sky-500 hover:text-sky-600 hover:-translate-y-1 h-fit"
               >
                 <i class="fab fa-app-store fa-4x" aria-hidden="true"></i>
               </a>
               <a
                 href="https://play.google.com/store/apps/details?id=com.rumobile&pli=1"
-                class="text-sky-500 hover:text-sky-600"
+                class="text-sky-500 hover:text-sky-600 hover:-translate-y-1 h-fit"
               >
                 <i class="fab fa-google-play fa-4x" aria-hidden="true"></i>
               </a>
@@ -91,13 +107,13 @@
           <div class="inline-flex w-full justify-around md:hidden gap-10 mb-8">
             <a
               href="https://apps.apple.com/us/app/rutgers-rumobile/id1036544263"
-              class="text-sky-500 hover:text-sky-600"
+              class="text-sky-500 hover:text-sky-600 hover:-translate-y-1 h-fit"
             >
               <i class="fab fa-app-store fa-4x" aria-hidden="true"></i>
             </a>
             <a
               href="https://play.google.com/store/apps/details?id=com.rumobile&pli=1"
-              class="text-sky-500 hover:text-sky-600"
+              class="text-sky-500 hover:text-sky-600 hover:-translate-y-1 h-fit"
             >
               <i class="fab fa-google-play fa-4x" aria-hidden="true"></i>
             </a>
@@ -123,7 +139,7 @@
           </div>
         </div>
 
-        <div class="mt-20">
+        <div class="mt-24">
           <div class="flex justify-between mb-8">
             <div>
               <p class="text-4xl font-medium">
@@ -136,17 +152,27 @@
               <p class="block md:hidden text-2xl text-slate-400 font-light">
                 Swift (UIKit, SpriteKit, AVAudioPlayer)
               </p>
-              <p class="text-2xl text-slate-500 font-light mt-1">
+              <p class="text-2xl text-black font-light mt-1">
                 Introduced a <span class="text-sky-500">twist</span> on the
                 original box-pushing game by adding musical themes and lasers
                 that obstruct player movement
               </p>
+              <ul class="pl-5 text-xl text-slate-500 font-light list-disc mt-1">
+                <li>
+                  Programmed a Sokoban puzzler with 24 themed levels, music, and
+                  characters
+                </li>
+                <li>
+                  Improved development quality by raising unit test coverage to
+                  85%
+                </li>
+              </ul>
             </div>
 
-            <div class="md:inline-block hidden">
+            <div class="md:inline-flex hidden">
               <a
                 href="https://github.com/marypaskhaver/Sokoban"
-                class="text-sky-500 hover:text-sky-600"
+                class="text-sky-500 hover:text-sky-600 hover:-translate-y-1 h-fit"
               >
                 <i class="fab fa-github fa-4x" aria-hidden="true"></i>
               </a>
@@ -156,7 +182,7 @@
           <div class="inline-flex w-full justify-center md:hidden mb-8">
             <a
               href="https://github.com/marypaskhaver/Sokoban"
-              class="text-sky-500 hover:text-sky-600"
+              class="text-sky-500 hover:text-sky-600 hover:-translate-y-1"
             >
               <i class="fab fa-github fa-4x" aria-hidden="true"></i>
             </a>
@@ -183,6 +209,127 @@
         </div>
       </div>
     </div>
+
+    <div class="bg-slate-50 pt-8 pb-16 justify-center" id="writing">
+      <div class="mx-20">
+        <p class="text-6xl font-bold mt-8 mb-8 text-center">My Writing</p>
+        <p class="text-3xl text-slate-500 text-center mb-16">
+          Explore a student's perspective on tech and work.
+        </p>
+
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          <div class="rounded-2xl shadow-2xl hover:-translate-y-1">
+            <a
+              href="https://medium.com/geekculture/use-lambda-calculus-to-think-about-functional-programming-4734f80e7714"
+            >
+              <img
+                class="w-full rounded-t-2xl"
+                src="/public/lambda_calculus.jpeg"
+                alt="Faded background: The sun shining over clouds. Foreground: ((λx.M) N)."
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-2xl mb-2">
+                  Use Lambda Calculus To Think About Functional Programming
+                </div>
+                <p class="text-gray-700 text-lg overflow-hidden">
+                  I can hear it now: "Nerd!"<br /><br />I guess it is nerdy to
+                  write an article on lambda calculus. But hear me out...
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >Computer Science</span
+                >
+                <span
+                  class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >Math</span
+                >
+                <span
+                  class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >Functional Programming</span
+                >
+              </div>
+            </a>
+          </div>
+
+          <div class="rounded-2xl shadow-2xl hover:-translate-y-1">
+            <a
+              href="https://betterprogramming.pub/tackle-burnout-from-building-personal-projects-429c326b8548"
+            >
+              <img
+                class="w-full rounded-t-2xl"
+                src="/public/fire.jpeg"
+                alt="A fire burning."
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-2xl mb-2">
+                  Tackle Burnout By Building Personal Projects
+                </div>
+                <p class="text-gray-700 text-lg overflow-hidden">
+                  In my third year of high school, I spent six months building
+                  an app to help people track their good deeds.<br /><br />One
+                  year later...
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >Productivity</span
+                >
+                <span
+                  class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >Programming</span
+                >
+                <span
+                  class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >Burnout</span
+                >
+              </div>
+            </a>
+          </div>
+
+          <div class="rounded-2xl shadow-2xl hover:-translate-y-1">
+            <a
+              href="https://medium.com/geekculture/redux-vs-recoil-16fbdb0b0a52"
+            >
+              <img
+                class="w-full rounded-t-2xl"
+                src="/public/stick_figure.jpeg"
+                alt="Stick figure next to question mark."
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-2xl mb-2">Redux vs. Recoil</div>
+                <p class="text-gray-700 text-lg overflow-hidden">
+                  You've likely heard of Redux.<br /><br />It's a popular state
+                  management tool for JavaScript apps, including React sites.
+                  Its website says it's predictable...
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span
+                  class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >Web Development</span
+                >
+                <span
+                  class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  >State Management</span
+                >
+              </div>
+            </a>
+          </div>
+        </div>
+        <p class="text-2xl mt-16 text-center">
+          Interested? Read more
+          <a
+            href="https://medium.com/@mary.paskhaver"
+            class="text-sky-500 hover:text-sky-600 border-b-2"
+            >here</a
+          >.
+        </p>
+      </div>
+    </div>
+
     <div class="flex w-full bg-slate-100 py-8 justify-center">
       Copyright © Mary Paskhaver 2023
     </div>
