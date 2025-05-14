@@ -70,8 +70,8 @@
             <span class="text-sky-500">Mary</span> Paskhaver
           </p>
           <p class="text-2xl text-slate-500 font-light pt-4">
-            I'm a student and developer with experience in React, React Native,
-            and Swift. I've built 5 apps for the App Store and a
+            I'm a developer with experience in React, React Native, and Swift.
+            I've built 5 apps for the App Store and a
             <a
               href="https://medium.com/@mary.paskhaver"
               class="text-sky-500 hover:text-sky-600 border-b-2"
@@ -108,20 +108,12 @@
           <p class="text-2xl text-black font-light mt-1">
             Built a reaction time game
           </p>
-          <ul class="pl-5 text-xl text-slate-500 font-light list-disc mt-1">
+          <ul
+            class="pl-5 text-xl text-slate-500 font-light list-disc mt-1 mb-8"
+          >
             <li>Created a unique timed memory test and a practice mode</li>
             <li>Wrote unit tests, boosting code coverage by 6.9%</li>
           </ul>
-
-          <div class="w-fit mx-auto my-8">
-            <a href="https://apps.apple.com/app/the-shapes-game/id6501962382">
-              <img
-                alt="Download The Shapes Game on the App Store button"
-                src="https://images.squarespace-cdn.com/content/v1/5cedd5e7c6e7df0001bbb67c/1564389803367-QIJ4CIDOV4JVO9X2YPYG/badge-apple.png"
-                class="w-64 h-20"
-              />
-            </a>
-          </div>
 
           <div class="mb-24 grid sm:grid-cols-1 lg:grid-cols-2 gap-12">
             <img
@@ -161,20 +153,12 @@
           <p class="text-2xl text-black font-light mt-1">
             Designed and created an endless "hopper" game
           </p>
-          <ul class="pl-5 text-xl text-slate-500 font-light list-disc mt-1">
+          <ul
+            class="pl-5 text-xl text-slate-500 font-light list-disc mt-1 mb-8"
+          >
             <li>Built the home, game, and shop screens</li>
             <li>Drew 20+ pixel art assets: characters, icons, and buttons</li>
           </ul>
-
-          <div class="w-fit mx-auto my-8">
-            <a href="https://apps.apple.com/app/swappy-sides/id6496971400">
-              <img
-                alt="Download Swappy Sides on the App Store button"
-                src="https://images.squarespace-cdn.com/content/v1/5cedd5e7c6e7df0001bbb67c/1564389803367-QIJ4CIDOV4JVO9X2YPYG/badge-apple.png"
-                class="w-64 h-20"
-              />
-            </a>
-          </div>
 
           <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-12">
             <img
@@ -236,30 +220,16 @@
             </div>
           </div>
 
-          <div class="w-fit mx-auto">
-            <div
-              class="grid sm:grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-4 my-8"
+          <div class="w-fit mx-auto my-8">
+            <a
+              href="https://apps.apple.com/us/app/rutgers-rumobile/id1036544263"
             >
-              <a
-                href="https://apps.apple.com/us/app/rutgers-rumobile/id1036544263"
-              >
-                <img
-                  alt="Download RUMobile on the App Store button"
-                  src="https://images.squarespace-cdn.com/content/v1/5cedd5e7c6e7df0001bbb67c/1564389803367-QIJ4CIDOV4JVO9X2YPYG/badge-apple.png"
-                  class="w-64 h-20"
-                />
-              </a>
-
-              <a
-                href="https://play.google.com/store/apps/details?id=com.rumobile&pli=1"
-              >
-                <img
-                  alt="Download RUMobile on the Google Play Store button"
-                  src="https://images.squarespace-cdn.com/content/v1/5cedd5e7c6e7df0001bbb67c/1564389807577-PA33FCUWUSIQ3FE3P7CK/badge-google.png?format=1000w"
-                  class="w-64 h-20"
-                />
-              </a>
-            </div>
+              <img
+                alt="Download RUMobile on the App Store button"
+                src="https://images.squarespace-cdn.com/content/v1/5cedd5e7c6e7df0001bbb67c/1564389803367-QIJ4CIDOV4JVO9X2YPYG/badge-apple.png"
+                class="w-64 h-20"
+              />
+            </a>
           </div>
 
           <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -410,7 +380,10 @@
     </div>
 
     <div class="flex w-full bg-slate-100 py-8 justify-center">
-      Copyright © Mary Paskhaver 2024
+      Copyright © Mary Paskhaver&nbsp;<span id="year"></span>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     </div>
 
     <script>
