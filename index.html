@@ -63,13 +63,13 @@
     </nav>
 
     <div class="flex bg-slate-50 py-16">
-      <div class="mx-auto">
+      <div class="mx-auto w-1/2">
         <img src="/public/mary.png" class="w-64 h-64 mx-auto mt-12" />
-        <div class="text-center w-2/3 mx-auto">
-          <p class="text-7xl font-bold mt-8 mb-6">
+        <div class="text-center flex flex-col justify-content gap-8">
+          <p class="text-7xl font-bold mt-8">
             <span class="text-sky-500">Mary</span> Paskhaver
           </p>
-          <p class="text-2xl text-slate-500 font-light pt-4">
+          <p class="text-2xl text-slate-500 font-light">
             I'm a developer with experience in React, React Native, and Swift.
             I've built 5 apps for the App Store and a
             <a
@@ -79,20 +79,89 @@
             >
             about tech and work.
           </p>
-          <div class="mt-10">
+          <div class="flex justify-center">
             <a
               target="_blank"
               class="bg-sky-500 hover:bg-sky-600 py-2 px-3 rounded-xl text-2xl text-white"
-              href="/public/resume.pdf"
+              href="/public/Mary_Paskhaver.pdf"
               >Download resume</a
             >
           </div>
         </div>
       </div>
     </div>
-    <div class="flex bg-white pt-8 pb-16 justify-center" id="projects">
-      <div class="mx-20">
-        <p class="text-6xl font-bold mt-8 mb-12 text-center">My Projects</p>
+    <div class="bg-white pt-8 pb-16" id="projects">
+      <p class="text-6xl font-bold text-center my-8">My Projects</p>
+
+      <div class="mx-20 flex flex-col gap-y-20">
+        <div id="rumobile">
+          <div>
+            <p class="text-4xl font-medium">
+              Rutgers RUMobile
+              <span
+                class="md:inline-block hidden text-2xl text-slate-400 font-light"
+                >/ React Native, Redux</span
+              >
+            </p>
+            <p class="block md:hidden text-2xl text-slate-400 font-light">
+              React Native, Redux
+            </p>
+            <p class="text-2xl text-black font-light mt-1">
+              Collaborated with alumni to rebuild and expand an app that helps
+              <span class="text-sky-500">3,000+</span> Rutgers University
+              students
+            </p>
+            <ul class="pl-5 text-xl text-slate-500 font-light list-disc mt-1">
+              <li>
+                Rebuilt app with React Navigation library, enabling custom Dark
+                Mode and Android compatibility
+              </li>
+              <li>
+                Wrote unit tests for Redux reducers, components, and formatting
+                functions, boosting known frontend code coverage to 85%+
+              </li>
+              <li>
+                Reviewed fellow developer's code and collaborated with UI
+                designer to improve product quality
+              </li>
+            </ul>
+          </div>
+
+          <div class="w-fit mx-auto my-8">
+            <a
+              href="https://apps.apple.com/us/app/rutgers-rumobile/id1036544263"
+            >
+              <img
+                alt="Download RUMobile on the App Store button"
+                src="https://images.squarespace-cdn.com/content/v1/5cedd5e7c6e7df0001bbb67c/1564389803367-QIJ4CIDOV4JVO9X2YPYG/badge-apple.png"
+                class="w-64 h-20"
+              />
+            </a>
+          </div>
+
+          <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            <img
+              alt="RUMobile home screen"
+              src="/public/rumobile_home.png"
+              class="rounded-2xl shadow-2xl"
+            />
+            <img
+              alt="RUMobile food screen"
+              src="/public/rumobile_food.png"
+              class="rounded-2xl shadow-2xl"
+            />
+            <img
+              alt="RUMobile bus screen"
+              src="/public/rumobile_bus.png"
+              class="rounded-2xl shadow-2xl"
+            />
+            <img
+              alt="RUMobile schedule screen"
+              src="/public/rumobile_schedule.png"
+              class="rounded-2xl shadow-2xl"
+            />
+          </div>
+        </div>
 
         <div id="the-shapes-game">
           <p class="text-4xl font-medium">
@@ -115,7 +184,7 @@
             <li>Wrote unit tests, boosting code coverage by 6.9%</li>
           </ul>
 
-          <div class="mb-24 grid sm:grid-cols-1 lg:grid-cols-2 gap-12">
+          <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-12">
             <img
               alt="The Shapes Game practice mode screen with filled triangle"
               src="/public/shapes_game_demo_1.png"
@@ -183,84 +252,12 @@
             />
           </div>
         </div>
-
-        <div id="rumobile" class="mt-24 mb-8">
-          <div class="flex justify-between">
-            <div>
-              <p class="text-4xl font-medium">
-                Rutgers RUMobile
-                <span
-                  class="md:inline-block hidden text-2xl text-slate-400 font-light"
-                  >/ React Native, Redux</span
-                >
-              </p>
-              <p class="block md:hidden text-2xl text-slate-400 font-light">
-                React Native, Redux
-              </p>
-              <p class="text-2xl text-black font-light mt-1">
-                Collaborated with alumni to rebuild and expand an app that helps
-                <span class="text-sky-500">3,000+</span> Rutgers University
-                students
-              </p>
-              <ul class="pl-5 text-xl text-slate-500 font-light list-disc mt-1">
-                <li>
-                  Rebuilt app with React Navigation library, enabling custom
-                  Dark Mode and Android compatibility
-                </li>
-                <li>
-                  Wrote unit tests for Redux reducers, components, and
-                  formatting functions, boosting known frontend code coverage to
-                  85%+
-                </li>
-                <li>
-                  Reviewed fellow developer's code and collaborated with UI
-                  designer to improve product quality
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="w-fit mx-auto my-8">
-            <a
-              href="https://apps.apple.com/us/app/rutgers-rumobile/id1036544263"
-            >
-              <img
-                alt="Download RUMobile on the App Store button"
-                src="https://images.squarespace-cdn.com/content/v1/5cedd5e7c6e7df0001bbb67c/1564389803367-QIJ4CIDOV4JVO9X2YPYG/badge-apple.png"
-                class="w-64 h-20"
-              />
-            </a>
-          </div>
-
-          <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-            <img
-              alt="RUMobile home screen"
-              src="/public/rumobile_home.png"
-              class="rounded-2xl shadow-2xl"
-            />
-            <img
-              alt="RUMobile food screen"
-              src="/public/rumobile_food.png"
-              class="rounded-2xl shadow-2xl"
-            />
-            <img
-              alt="RUMobile bus screen"
-              src="/public/rumobile_bus.png"
-              class="rounded-2xl shadow-2xl"
-            />
-            <img
-              alt="RUMobile schedule screen"
-              src="/public/rumobile_schedule.png"
-              class="rounded-2xl shadow-2xl"
-            />
-          </div>
-        </div>
       </div>
     </div>
 
-    <div class="bg-slate-50 pt-8 pb-16 justify-center" id="writing">
+    <div class="bg-slate-50 pt-8 pb-16" id="writing">
       <div class="mx-20">
-        <p class="text-6xl font-bold mt-8 mb-8 text-center">My Writing</p>
+        <p class="text-6xl font-bold my-8 text-center">My Writing</p>
         <p class="text-3xl text-slate-500 text-center mb-16">
           Explore a student's perspective on tech and work.
         </p>
