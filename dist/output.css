@@ -667,6 +667,11 @@ video {
   clear: none;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -823,10 +828,6 @@ video {
 
 .h-64 {
   height: 16rem;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .w-64 {
@@ -2660,6 +2661,11 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
   .md\:inline-block {
     display: inline-block;
   }
